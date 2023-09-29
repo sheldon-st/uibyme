@@ -8,7 +8,7 @@ export function App() {
     <div style={{ backgroundColor: '#171717' }}>
       <NxWelcome title="uibyme" />
     </div>
-  );
+  ); 
 }
 
 export default App;

@@ -5,7 +5,7 @@ import NxWelcome from './nx-welcome';
 
 export function App() {
   return (
-    <div>
+    <div style={{ backgroundColor: '#171717' }}>
       <NxWelcome title="uibyme" />
     </div>
   );

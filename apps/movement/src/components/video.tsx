@@ -17,7 +17,7 @@ export const MovementVideo: FC<IMovementVideoProps> = ({
   style,
 }) => {
   return (
-    <Link to="/speed">
+    <Link to={`/${title}`}>
       <div style={style}>
         <HoverVideoPlayer
           sizingMode="overlay"

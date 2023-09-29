@@ -24,7 +24,7 @@ export function HomePage() {
         parameter.
       </p>
       {/* 3 column grid of videos */}
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: ' 1fr 1fr 1fr' }}>
         <MovementVideo
           videoSrc="https://uibyme.blob.core.windows.net/movement/speedTest.mp4"
           title="speed"
@@ -39,31 +39,31 @@ export function HomePage() {
         />
         <MovementVideo
           videoSrc="https://uibyme.blob.core.windows.net/movement/Timeline 1.mp4"
-          title="body angles"
+          title="angles"
           description="test"
           pausedOverlay="https://uibyme.blob.core.windows.net/movement/angles.jpeg"
         />
         <MovementVideo
           videoSrc="https://uibyme.blob.core.windows.net/movement/Timeline 1.mp4"
-          title="body angles"
+          title="shape"
           description="test"
           pausedOverlay="https://uibyme.blob.core.windows.net/movement/shape.jpeg"
         />
         <MovementVideo
           videoSrc="https://uibyme.blob.core.windows.net/movement/Timeline 1.mp4"
-          title="body angles"
+          title="scale"
           description="test"
           pausedOverlay="https://uibyme.blob.core.windows.net/movement/scale.jpeg"
         />
         <MovementVideo
           videoSrc="https://uibyme.blob.core.windows.net/movement/Timeline 1.mp4"
-          title="body angles"
+          title="exertion"
           description="test"
           pausedOverlay="https://uibyme.blob.core.windows.net/movement/exertion.jpeg"
         />
         <MovementVideo
           videoSrc="https://uibyme.blob.core.windows.net/movement/Timeline 1.mp4"
-          title="body angles"
+          title="fluidity"
           description="test"
           pausedOverlay="https://uibyme.blob.core.windows.net/movement/fluidity.jpeg"
         />

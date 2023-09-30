@@ -82,7 +82,7 @@ export function App() {
           element={
             <div>
               <Link to="/">Click here to go back to root page.</Link>
-              <ParameterPage name="Path">
+              <ParameterPage name="Path" previous="Fluidity" next="Path">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer imperdiet dolor et mattis dapibus. Phasellus ut
@@ -138,7 +138,7 @@ export function App() {
           element={
             <div>
               <Link to="/">Click here to go back to root page.</Link>
-              <ParameterPage name="Path">
+              <ParameterPage name="Path" previous="Fluidity" next="Path">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer imperdiet dolor et mattis dapibus. Phasellus ut
@@ -194,7 +194,7 @@ export function App() {
           element={
             <div>
               <Link to="/">Click here to go back to root page.</Link>
-              <ParameterPage name="Path">
+              <ParameterPage name="Path" previous="Fluidity" next="Path">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer imperdiet dolor et mattis dapibus. Phasellus ut
@@ -250,7 +250,7 @@ export function App() {
           element={
             <div>
               <Link to="/">Click here to go back to root page.</Link>
-              <ParameterPage name="Path">
+              <ParameterPage name="Path" previous="Fluidity" next="Path">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer imperdiet dolor et mattis dapibus. Phasellus ut
@@ -365,7 +365,7 @@ export function App() {
           element={
             <div>
               <Link to="/">Click here to go back to root page.</Link>
-              <ParameterPage name="Fluidity">
+              <ParameterPage name="Fluidity" next="Speed" previous="Exertion">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer imperdiet dolor et mattis dapibus. Phasellus ut

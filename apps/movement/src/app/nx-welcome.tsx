@@ -56,7 +56,7 @@ export function HomePage() {
           pausedOverlay="https://uibyme.blob.core.windows.net/movement/scale.jpeg"
         />
         <MovementVideo
-          videoSrc="https://uibyme.blob.core.windows.net/movement/Timeline 1.mp4"
+          videoSrc="https://uibyme.blob.core.windows.net/movement/exertion.mp4"
           title="exertion"
           description="test"
           pausedOverlay="https://uibyme.blob.core.windows.net/movement/exertion.jpeg"
@@ -67,10 +67,9 @@ export function HomePage() {
           description="test"
           pausedOverlay="https://uibyme.blob.core.windows.net/movement/fluidity.jpeg"
         />
-        <p>
-          Hover over the titles below for a visual demonstration of each
-          parameter. Click to be taken to a more detailed description of that
-          parameter.
+        <p style={{ opacity: 0.8 }}>
+          Hover over each title for a visual demonstration of the parameter.
+          Click for more detailed information.
         </p>
       </div>
       <div className="credits">

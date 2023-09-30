@@ -10,7 +10,10 @@ interface IParameterPageProps {
 export const ParameterPage: FC<IParameterPageProps> = ({ name, children }) => {
   return (
     <div>
-      <h1>{name}</h1>
+      <h1 className="h1">
+        <span className="span">Parameter: </span>
+        {name}
+      </h1>
       <p></p>
       <div>{children}</div>
     </div>

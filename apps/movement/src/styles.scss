@@ -11,7 +11,7 @@
 .h1 {
   color: #e5e5e5;
 
-  font-size: 60px;
+  font-size: 48px;
   font-family: 'Agrandir Variable';
 
   font-variation-settings: 'wdth' 150;
@@ -19,13 +19,20 @@
 
   padding: 12px;
   padding-bottom: 0;
-  padding-top: 24px;
 }
 
+.root {
+  padding: 0;
+  padding-top: 16px;
+}
+
+.name {
+  font-weight: 500;
+}
 .span {
   color: #e5e5e5;
   font-family: 'Agrandir Variable';
-  font-size: 64px;
+  font-size: 48px;
   font-weight: 127;
   font-variation-settings: 'wdth' 150;
 
@@ -35,14 +42,14 @@
 .bold {
   font-weight: 600;
   font-variation-settings: 'wdth' 127;
-  font-size: 21px;
+  font-size: 18px;
 }
 
 .body {
   font-weight: 200;
   font-variation-settings: 'wdth' 127;
 
-  font-size: 21px;
+  font-size: 18px;
   letter-spacing: 0.5px;
   padding-left: 12px;
 }

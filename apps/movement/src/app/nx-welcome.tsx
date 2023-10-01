@@ -26,31 +26,31 @@ export function HomePage() {
           future design work.
         </span>
         <MovementVideo
-          videoSrc="https://uibyme.blob.core.windows.net/movement/speedTest.mp4"
+          videoSrc="https://uibyme.blob.core.windows.net/movement/speed.mp4"
           title="speed"
           description="test"
           pausedOverlay="https://uibyme.blob.core.windows.net/movement/speedThumbnail.jpeg"
         />
         <MovementVideo
-          videoSrc="https://uibyme.blob.core.windows.net/movement/pathTest.mp4"
+          videoSrc="https://uibyme.blob.core.windows.net/movement/path.mp4"
           title="path"
           description="test"
           pausedOverlay="https://uibyme.blob.core.windows.net/movement/pathThumbnail.jpeg"
         />
         <MovementVideo
-          videoSrc="https://uibyme.blob.core.windows.net/movement/Timeline 1.mp4"
+          videoSrc="https://uibyme.blob.core.windows.net/movement/angles.mp4"
           title="angles"
           description="test"
           pausedOverlay="https://uibyme.blob.core.windows.net/movement/angles.jpeg"
         />
         <MovementVideo
-          videoSrc="https://uibyme.blob.core.windows.net/movement/Timeline 1.mp4"
+          videoSrc="https://uibyme.blob.core.windows.net/movement/shape.mp4"
           title="shape"
           description="test"
           pausedOverlay="https://uibyme.blob.core.windows.net/movement/shape.jpeg"
         />
         <MovementVideo
-          videoSrc="https://uibyme.blob.core.windows.net/movement/Timeline 1.mp4"
+          videoSrc="https://uibyme.blob.core.windows.net/movement/scale.mp4"
           title="scale"
           description="test"
           pausedOverlay="https://uibyme.blob.core.windows.net/movement/scale.jpeg"
@@ -62,7 +62,7 @@ export function HomePage() {
           pausedOverlay="https://uibyme.blob.core.windows.net/movement/exertion.jpeg"
         />
         <MovementVideo
-          videoSrc="https://uibyme.blob.core.windows.net/movement/Timeline 1.mp4"
+          videoSrc="https://uibyme.blob.core.windows.net/movement/fluidity.mp4"
           title="fluidity"
           description="test"
           pausedOverlay="https://uibyme.blob.core.windows.net/movement/fluidity.jpeg"

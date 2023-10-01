@@ -59,50 +59,19 @@ export function App() {
             <div>
               <ParameterPage name="Speed" previous="Fluidity" next="Path">
                 <div className="info">
+                  {/* What does each design parameter mean? How can it vary?
+Convey this through short text description */}
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer imperdiet dolor et mattis dapibus. Phasellus ut
-                    maximus lectus. Pellentesque facilisis pretium nibh nec
-                    consequat. Cras placerat eleifend sagittis. Duis ligula
-                    urna, viverra nec congue sed, facilisis vel est. Proin
-                    pellentesque metus sed urna scelerisque placerat. Duis quis
-                    commodo nisi. Aenean vestibulum diam nulla, a auctor ligula
-                    pretium sit amet. Nam non convallis dui, et ultrices orci.
-                    Pellentesque vestibulum molestie imperdiet. Integer maximus
-                    tellus imperdiet porta pellentesque. Nunc feugiat urna ac
-                    ante commodo, id feugiat odio luctus. Nam venenatis et quam
-                    eu accumsan. Donec erat dolor, finibus nec malesuada id,
-                    ornare eu lorem. Quisque non posuere dui, et venenatis eros.
-                    Nunc pulvinar sed orci sed blandit. Integer viverra, sem
-                    eget pharetra facilisis, ipsum massa ullamcorper dolor, et
-                    pretium massa metus vitae eros. Phasellus posuere tortor id
-                    massa lacinia, vel tristique urna tempus. Mauris mi erat,
-                    pellentesque et facilisis non, vulputate nec lacus. In sed
-                    sapien dolor.
-                  </p>
-                  <p>
-                    Aenean sed velit urna. Aliquam tempus, enim eu rhoncus
-                    aliquet, enim turpis cursus sem, quis vestibulum ante risus
-                    id arcu. Proin nec augue at magna facilisis rhoncus. Integer
-                    non odio rutrum, lobortis sapien vitae, molestie est.
-                    Aliquam eget velit semper, interdum justo in, blandit
-                    tortor. Aliquam nec pretium dolor, quis porta lectus.
-                    Vestibulum urna nunc, congue ac bibendum at, egestas non
-                    erat. Donec feugiat finibus dignissim. Donec in purus et ex
-                    congue semper ut vitae sapien. Nulla venenatis enim quis
-                    congue iaculis. Praesent laoreet ullamcorper diam.
-                    Vestibulum porttitor bibendum ipsum vitae semper.lley of
-                    type and scrambled it to make a type specimen book. It has
-                    survived not only five centuries, but also the leap into
-                    electronic typesetting, remaining essentially unchanged. It
-                    was popularised in the 1960s with the release of Letraset
-                    sheets containing Lorem Ipsum passages, and more recently
-                    with desktop publishing software like Aldus PageMaker
-                    including versions of Lorem Ipsum.
+                    Exertion describes an individual’s percieved or actual use
+                    of energy throughout a movement. It is a combination of the
+                    amount of energy used and the speed at which it is used.
+                    Exertion can be used to convey the amount of energy required
+                    to perform a movement, or the amount of energy that the
+                    movement itself conveys.
                   </p>
                 </div>
                 <MovementVideo
-                  videoSrc="https://uibyme.blob.core.windows.net/movement/Timeline 1.mp4"
+                  videoSrc="https://uibyme.blob.core.windows.net/movement/speeds.mp4"
                   title="Speed"
                   // description=''
                   pausedOverlay="https://uibyme.blob.core.windows.net/movement/speedThumbnail.jpeg"
@@ -115,50 +84,21 @@ export function App() {
           path="/path"
           element={
             <div>
-              <Link to="/">Click here to go back to root page.</Link>
-              <ParameterPage name="Path" previous="Fluidity" next="Path">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer imperdiet dolor et mattis dapibus. Phasellus ut
-                  maximus lectus. Pellentesque facilisis pretium nibh nec
-                  consequat. Cras placerat eleifend sagittis. Duis ligula urna,
-                  viverra nec congue sed, facilisis vel est. Proin pellentesque
-                  metus sed urna scelerisque placerat. Duis quis commodo nisi.
-                  Aenean vestibulum diam nulla, a auctor ligula pretium sit
-                  amet. Nam non convallis dui, et ultrices orci. Pellentesque
-                  vestibulum molestie imperdiet. Integer maximus tellus
-                  imperdiet porta pellentesque. Nunc feugiat urna ac ante
-                  commodo, id feugiat odio luctus. Nam venenatis et quam eu
-                  accumsan. Donec erat dolor, finibus nec malesuada id, ornare
-                  eu lorem. Quisque non posuere dui, et venenatis eros. Nunc
-                  pulvinar sed orci sed blandit. Integer viverra, sem eget
-                  pharetra facilisis, ipsum massa ullamcorper dolor, et pretium
-                  massa metus vitae eros. Phasellus posuere tortor id massa
-                  lacinia, vel tristique urna tempus. Mauris mi erat,
-                  pellentesque et facilisis non, vulputate nec lacus. In sed
-                  sapien dolor.
-                </p>
-                <p>
-                  Aenean sed velit urna. Aliquam tempus, enim eu rhoncus
-                  aliquet, enim turpis cursus sem, quis vestibulum ante risus id
-                  arcu. Proin nec augue at magna facilisis rhoncus. Integer non
-                  odio rutrum, lobortis sapien vitae, molestie est. Aliquam eget
-                  velit semper, interdum justo in, blandit tortor. Aliquam nec
-                  pretium dolor, quis porta lectus. Vestibulum urna nunc, congue
-                  ac bibendum at, egestas non erat. Donec feugiat finibus
-                  dignissim. Donec in purus et ex congue semper ut vitae sapien.
-                  Nulla venenatis enim quis congue iaculis. Praesent laoreet
-                  ullamcorper diam. Vestibulum porttitor bibendum ipsum vitae
-                  semper.lley of type and scrambled it to make a type specimen
-                  book. It has survived not only five centuries, but also the
-                  leap into electronic typesetting, remaining essentially
-                  unchanged. It was popularised in the 1960s with the release of
-                  Letraset sheets containing Lorem Ipsum passages, and more
-                  recently with desktop publishing software like Aldus PageMaker
-                  including versions of Lorem Ipsum.
-                </p>
+              <ParameterPage name="Path" previous="Speed" next="Angles">
+                <div className="info">
+                  {/* What does each design parameter mean? How can it vary?
+Convey this through short text description */}
+                  <p>
+                    Exertion describes an individual’s percieved or actual use
+                    of energy throughout a movement. It is a combination of the
+                    amount of energy used and the speed at which it is used.
+                    Exertion can be used to convey the amount of energy required
+                    to perform a movement, or the amount of energy that the
+                    movement itself conveys.
+                  </p>
+                </div>
                 <MovementVideo
-                  videoSrc="https://uibyme.blob.core.windows.net/movement/pathTest.mp4"
+                  videoSrc="https://uibyme.blob.core.windows.net/movement/path.mp4"
                   title="path"
                   description="test"
                   pausedOverlay="https://uibyme.blob.core.windows.net/movement/pathThumbnail.jpeg"
@@ -171,50 +111,21 @@ export function App() {
           path="/angles"
           element={
             <div>
-              <Link to="/">Click here to go back to root page.</Link>
-              <ParameterPage name="Path" previous="Fluidity" next="Path">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer imperdiet dolor et mattis dapibus. Phasellus ut
-                  maximus lectus. Pellentesque facilisis pretium nibh nec
-                  consequat. Cras placerat eleifend sagittis. Duis ligula urna,
-                  viverra nec congue sed, facilisis vel est. Proin pellentesque
-                  metus sed urna scelerisque placerat. Duis quis commodo nisi.
-                  Aenean vestibulum diam nulla, a auctor ligula pretium sit
-                  amet. Nam non convallis dui, et ultrices orci. Pellentesque
-                  vestibulum molestie imperdiet. Integer maximus tellus
-                  imperdiet porta pellentesque. Nunc feugiat urna ac ante
-                  commodo, id feugiat odio luctus. Nam venenatis et quam eu
-                  accumsan. Donec erat dolor, finibus nec malesuada id, ornare
-                  eu lorem. Quisque non posuere dui, et venenatis eros. Nunc
-                  pulvinar sed orci sed blandit. Integer viverra, sem eget
-                  pharetra facilisis, ipsum massa ullamcorper dolor, et pretium
-                  massa metus vitae eros. Phasellus posuere tortor id massa
-                  lacinia, vel tristique urna tempus. Mauris mi erat,
-                  pellentesque et facilisis non, vulputate nec lacus. In sed
-                  sapien dolor.
-                </p>
-                <p>
-                  Aenean sed velit urna. Aliquam tempus, enim eu rhoncus
-                  aliquet, enim turpis cursus sem, quis vestibulum ante risus id
-                  arcu. Proin nec augue at magna facilisis rhoncus. Integer non
-                  odio rutrum, lobortis sapien vitae, molestie est. Aliquam eget
-                  velit semper, interdum justo in, blandit tortor. Aliquam nec
-                  pretium dolor, quis porta lectus. Vestibulum urna nunc, congue
-                  ac bibendum at, egestas non erat. Donec feugiat finibus
-                  dignissim. Donec in purus et ex congue semper ut vitae sapien.
-                  Nulla venenatis enim quis congue iaculis. Praesent laoreet
-                  ullamcorper diam. Vestibulum porttitor bibendum ipsum vitae
-                  semper.lley of type and scrambled it to make a type specimen
-                  book. It has survived not only five centuries, but also the
-                  leap into electronic typesetting, remaining essentially
-                  unchanged. It was popularised in the 1960s with the release of
-                  Letraset sheets containing Lorem Ipsum passages, and more
-                  recently with desktop publishing software like Aldus PageMaker
-                  including versions of Lorem Ipsum.
-                </p>
+              <ParameterPage name="Angles" previous="Path" next="Shape">
+                <div className="info">
+                  {/* What does each design parameter mean? How can it vary?
+Convey this through short text description */}
+                  <p>
+                    Exertion describes an individual’s percieved or actual use
+                    of energy throughout a movement. It is a combination of the
+                    amount of energy used and the speed at which it is used.
+                    Exertion can be used to convey the amount of energy required
+                    to perform a movement, or the amount of energy that the
+                    movement itself conveys.
+                  </p>
+                </div>
                 <MovementVideo
-                  videoSrc="https://uibyme.blob.core.windows.net/movement/Timeline 1.mp4"
+                  videoSrc="https://uibyme.blob.core.windows.net/movement/angles.mp4"
                   title="angles"
                   description="test"
                   pausedOverlay="https://uibyme.blob.core.windows.net/movement/angles.jpeg"
@@ -227,50 +138,21 @@ export function App() {
           path="/shape"
           element={
             <div>
-              <Link to="/">Click here to go back to root page.</Link>
-              <ParameterPage name="Path" previous="Fluidity" next="Path">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer imperdiet dolor et mattis dapibus. Phasellus ut
-                  maximus lectus. Pellentesque facilisis pretium nibh nec
-                  consequat. Cras placerat eleifend sagittis. Duis ligula urna,
-                  viverra nec congue sed, facilisis vel est. Proin pellentesque
-                  metus sed urna scelerisque placerat. Duis quis commodo nisi.
-                  Aenean vestibulum diam nulla, a auctor ligula pretium sit
-                  amet. Nam non convallis dui, et ultrices orci. Pellentesque
-                  vestibulum molestie imperdiet. Integer maximus tellus
-                  imperdiet porta pellentesque. Nunc feugiat urna ac ante
-                  commodo, id feugiat odio luctus. Nam venenatis et quam eu
-                  accumsan. Donec erat dolor, finibus nec malesuada id, ornare
-                  eu lorem. Quisque non posuere dui, et venenatis eros. Nunc
-                  pulvinar sed orci sed blandit. Integer viverra, sem eget
-                  pharetra facilisis, ipsum massa ullamcorper dolor, et pretium
-                  massa metus vitae eros. Phasellus posuere tortor id massa
-                  lacinia, vel tristique urna tempus. Mauris mi erat,
-                  pellentesque et facilisis non, vulputate nec lacus. In sed
-                  sapien dolor.
-                </p>
-                <p>
-                  Aenean sed velit urna. Aliquam tempus, enim eu rhoncus
-                  aliquet, enim turpis cursus sem, quis vestibulum ante risus id
-                  arcu. Proin nec augue at magna facilisis rhoncus. Integer non
-                  odio rutrum, lobortis sapien vitae, molestie est. Aliquam eget
-                  velit semper, interdum justo in, blandit tortor. Aliquam nec
-                  pretium dolor, quis porta lectus. Vestibulum urna nunc, congue
-                  ac bibendum at, egestas non erat. Donec feugiat finibus
-                  dignissim. Donec in purus et ex congue semper ut vitae sapien.
-                  Nulla venenatis enim quis congue iaculis. Praesent laoreet
-                  ullamcorper diam. Vestibulum porttitor bibendum ipsum vitae
-                  semper.lley of type and scrambled it to make a type specimen
-                  book. It has survived not only five centuries, but also the
-                  leap into electronic typesetting, remaining essentially
-                  unchanged. It was popularised in the 1960s with the release of
-                  Letraset sheets containing Lorem Ipsum passages, and more
-                  recently with desktop publishing software like Aldus PageMaker
-                  including versions of Lorem Ipsum.
-                </p>
+              <ParameterPage name="Shape" previous="Angles" next="Scale">
+                <div className="info">
+                  {/* What does each design parameter mean? How can it vary?
+Convey this through short text description */}
+                  <p>
+                    Exertion describes an individual’s percieved or actual use
+                    of energy throughout a movement. It is a combination of the
+                    amount of energy used and the speed at which it is used.
+                    Exertion can be used to convey the amount of energy required
+                    to perform a movement, or the amount of energy that the
+                    movement itself conveys.
+                  </p>
+                </div>
                 <MovementVideo
-                  videoSrc="https://uibyme.blob.core.windows.net/movement/Timeline 1.mp4"
+                  videoSrc="https://uibyme.blob.core.windows.net/movement/shape.mp4"
                   title="shape"
                   description="test"
                   pausedOverlay="https://uibyme.blob.core.windows.net/movement/shape.jpeg"
@@ -283,50 +165,21 @@ export function App() {
           path="/scale"
           element={
             <div>
-              <Link to="/">Click here to go back to root page.</Link>
-              <ParameterPage name="Path" previous="Fluidity" next="Path">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer imperdiet dolor et mattis dapibus. Phasellus ut
-                  maximus lectus. Pellentesque facilisis pretium nibh nec
-                  consequat. Cras placerat eleifend sagittis. Duis ligula urna,
-                  viverra nec congue sed, facilisis vel est. Proin pellentesque
-                  metus sed urna scelerisque placerat. Duis quis commodo nisi.
-                  Aenean vestibulum diam nulla, a auctor ligula pretium sit
-                  amet. Nam non convallis dui, et ultrices orci. Pellentesque
-                  vestibulum molestie imperdiet. Integer maximus tellus
-                  imperdiet porta pellentesque. Nunc feugiat urna ac ante
-                  commodo, id feugiat odio luctus. Nam venenatis et quam eu
-                  accumsan. Donec erat dolor, finibus nec malesuada id, ornare
-                  eu lorem. Quisque non posuere dui, et venenatis eros. Nunc
-                  pulvinar sed orci sed blandit. Integer viverra, sem eget
-                  pharetra facilisis, ipsum massa ullamcorper dolor, et pretium
-                  massa metus vitae eros. Phasellus posuere tortor id massa
-                  lacinia, vel tristique urna tempus. Mauris mi erat,
-                  pellentesque et facilisis non, vulputate nec lacus. In sed
-                  sapien dolor.
-                </p>
-                <p>
-                  Aenean sed velit urna. Aliquam tempus, enim eu rhoncus
-                  aliquet, enim turpis cursus sem, quis vestibulum ante risus id
-                  arcu. Proin nec augue at magna facilisis rhoncus. Integer non
-                  odio rutrum, lobortis sapien vitae, molestie est. Aliquam eget
-                  velit semper, interdum justo in, blandit tortor. Aliquam nec
-                  pretium dolor, quis porta lectus. Vestibulum urna nunc, congue
-                  ac bibendum at, egestas non erat. Donec feugiat finibus
-                  dignissim. Donec in purus et ex congue semper ut vitae sapien.
-                  Nulla venenatis enim quis congue iaculis. Praesent laoreet
-                  ullamcorper diam. Vestibulum porttitor bibendum ipsum vitae
-                  semper.lley of type and scrambled it to make a type specimen
-                  book. It has survived not only five centuries, but also the
-                  leap into electronic typesetting, remaining essentially
-                  unchanged. It was popularised in the 1960s with the release of
-                  Letraset sheets containing Lorem Ipsum passages, and more
-                  recently with desktop publishing software like Aldus PageMaker
-                  including versions of Lorem Ipsum.
-                </p>
+              <ParameterPage name="Scale" previous="Shape" next="Exertion">
+                <div className="info">
+                  {/* What does each design parameter mean? How can it vary?
+Convey this through short text description */}
+                  <p>
+                    Exertion describes an individual’s percieved or actual use
+                    of energy throughout a movement. It is a combination of the
+                    amount of energy used and the speed at which it is used.
+                    Exertion can be used to convey the amount of energy required
+                    to perform a movement, or the amount of energy that the
+                    movement itself conveys.
+                  </p>
+                </div>
                 <MovementVideo
-                  videoSrc="https://uibyme.blob.core.windows.net/movement/Timeline 1.mp4"
+                  videoSrc="https://uibyme.blob.core.windows.net/movement/scale.mp4"
                   title="scale"
                   description="test"
                   pausedOverlay="https://uibyme.blob.core.windows.net/movement/scale.jpeg"
@@ -381,50 +234,21 @@ Convey this through short text description */}
           path="/fluidity"
           element={
             <div>
-              <Link to="/">Click here to go back to root page.</Link>
               <ParameterPage name="Fluidity" next="Speed" previous="Exertion">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer imperdiet dolor et mattis dapibus. Phasellus ut
-                  maximus lectus. Pellentesque facilisis pretium nibh nec
-                  consequat. Cras placerat eleifend sagittis. Duis ligula urna,
-                  viverra nec congue sed, facilisis vel est. Proin pellentesque
-                  metus sed urna scelerisque placerat. Duis quis commodo nisi.
-                  Aenean vestibulum diam nulla, a auctor ligula pretium sit
-                  amet. Nam non convallis dui, et ultrices orci. Pellentesque
-                  vestibulum molestie imperdiet. Integer maximus tellus
-                  imperdiet porta pellentesque. Nunc feugiat urna ac ante
-                  commodo, id feugiat odio luctus. Nam venenatis et quam eu
-                  accumsan. Donec erat dolor, finibus nec malesuada id, ornare
-                  eu lorem. Quisque non posuere dui, et venenatis eros. Nunc
-                  pulvinar sed orci sed blandit. Integer viverra, sem eget
-                  pharetra facilisis, ipsum massa ullamcorper dolor, et pretium
-                  massa metus vitae eros. Phasellus posuere tortor id massa
-                  lacinia, vel tristique urna tempus. Mauris mi erat,
-                  pellentesque et facilisis non, vulputate nec lacus. In sed
-                  sapien dolor.
-                </p>
-                <p>
-                  Aenean sed velit urna. Aliquam tempus, enim eu rhoncus
-                  aliquet, enim turpis cursus sem, quis vestibulum ante risus id
-                  arcu. Proin nec augue at magna facilisis rhoncus. Integer non
-                  odio rutrum, lobortis sapien vitae, molestie est. Aliquam eget
-                  velit semper, interdum justo in, blandit tortor. Aliquam nec
-                  pretium dolor, quis porta lectus. Vestibulum urna nunc, congue
-                  ac bibendum at, egestas non erat. Donec feugiat finibus
-                  dignissim. Donec in purus et ex congue semper ut vitae sapien.
-                  Nulla venenatis enim quis congue iaculis. Praesent laoreet
-                  ullamcorper diam. Vestibulum porttitor bibendum ipsum vitae
-                  semper.lley of type and scrambled it to make a type specimen
-                  book. It has survived not only five centuries, but also the
-                  leap into electronic typesetting, remaining essentially
-                  unchanged. It was popularised in the 1960s with the release of
-                  Letraset sheets containing Lorem Ipsum passages, and more
-                  recently with desktop publishing software like Aldus PageMaker
-                  including versions of Lorem Ipsum.
-                </p>
+                <div className="info">
+                  {/* What does each design parameter mean? How can it vary?
+Convey this through short text description */}
+                  <p>
+                    Exertion describes an individual’s percieved or actual use
+                    of energy throughout a movement. It is a combination of the
+                    amount of energy used and the speed at which it is used.
+                    Exertion can be used to convey the amount of energy required
+                    to perform a movement, or the amount of energy that the
+                    movement itself conveys.
+                  </p>
+                </div>
                 <MovementVideo
-                  videoSrc="https://uibyme.blob.core.windows.net/movement/Timeline 1.mp4"
+                  videoSrc="https://uibyme.blob.core.windows.net/movement/fluidity.mp4"
                   title="fluidity"
                   description="test"
                   pausedOverlay="https://uibyme.blob.core.windows.net/movement/fluidity.jpeg"

@@ -69,9 +69,15 @@ export function HomePage() {
         />
         <p style={{ opacity: 0.8 }}>
           Hover over each title for a visual demonstration of the parameter.
-          Click for more detailed information.
+          Click for more detailed information. <br /> <br />
+          Scroll to see how all of these parameters could relate.
         </p>
       </div>
+      <img
+        src="src/assets/movementparameters.png"
+        alt=""
+        style={{ width: '100%', backgroundColor: 'white' }}
+      />
       <div className="credits">
         <span>
           <span>Work by: </span>

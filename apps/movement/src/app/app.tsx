@@ -62,12 +62,18 @@ export function App() {
                   {/* What does each design parameter mean? How can it vary?
 Convey this through short text description */}
                   <p>
-                    Exertion describes an individual’s percieved or actual use
-                    of energy throughout a movement. It is a combination of the
-                    amount of energy used and the speed at which it is used.
-                    Exertion can be used to convey the amount of energy required
-                    to perform a movement, or the amount of energy that the
-                    movement itself conveys.
+                    A measure of the rate of movement over time. Speed can vary
+                    from still (absence of movement) to slow (gradual movement)
+                    to fast (rapid movement).
+                  </p>
+                  <p>
+                    A movement with a fast speed can be described as quick,
+                    rapid, or sudden. A movement with a slow speed can be
+                    described as slow, gradual, or gentle.
+                  </p>
+                  <p>
+                    The change in speed throughout a movement can be described
+                    as acceleration or deceleration.
                   </p>
                 </div>
                 <MovementVideo
@@ -89,12 +95,21 @@ Convey this through short text description */}
                   {/* What does each design parameter mean? How can it vary?
 Convey this through short text description */}
                   <p>
-                    Exertion describes an individual’s percieved or actual use
-                    of energy throughout a movement. It is a combination of the
-                    amount of energy used and the speed at which it is used.
-                    Exertion can be used to convey the amount of energy required
-                    to perform a movement, or the amount of energy that the
-                    movement itself conveys.
+                    The specific course or direction taken by the body when you
+                    engage in motion or physical motion activity.
+                  </p>
+                  <p>
+                    Consciously directing bodily movement through a physical
+                    environment and its obstacles. It requires the coordination
+                    of sensory input, spatial awareness, kinesthetic feedback,
+                    and the feng shui of a space to adapt and make decisions
+                    regarding movement.
+                  </p>
+                  <p>
+                    Path can be used to convey the direction of a movement, or
+                    the course over time. A movement with a straight path can be
+                    described as linear, direct, or straight. A movement with a
+                    curved path can be described as indirect.
                   </p>
                 </div>
                 <MovementVideo
@@ -116,12 +131,16 @@ Convey this through short text description */}
                   {/* What does each design parameter mean? How can it vary?
 Convey this through short text description */}
                   <p>
-                    Exertion describes an individual’s percieved or actual use
-                    of energy throughout a movement. It is a combination of the
-                    amount of energy used and the speed at which it is used.
-                    Exertion can be used to convey the amount of energy required
-                    to perform a movement, or the amount of energy that the
-                    movement itself conveys.
+                    Body angles describe the position or direction of different
+                    body parts relative to each other as an individual moves
+                    through space. This can include the angle of the arms, legs,
+                    torso, or head, etc or posture of the body as a whole.
+                  </p>
+                  <p>
+                    For example, a movement with a large angle can be described
+                    as extended or stretched. A movement with a smaller angle
+                    can be described as compact or compressed. An individuals
+                    posture coule be described as open, closed, or neutral.
                   </p>
                 </div>
                 <MovementVideo
@@ -143,12 +162,19 @@ Convey this through short text description */}
                   {/* What does each design parameter mean? How can it vary?
 Convey this through short text description */}
                   <p>
-                    Exertion describes an individual’s percieved or actual use
-                    of energy throughout a movement. It is a combination of the
-                    amount of energy used and the speed at which it is used.
-                    Exertion can be used to convey the amount of energy required
-                    to perform a movement, or the amount of energy that the
-                    movement itself conveys.
+                    Shape describes the form of a movement. It can be used to
+                    describe the shape of the body, or the shape of the movement
+                    itself. In contrast to Body Angles, which describes the
+                    angles of the body, Shape describes the overall form of the
+                    body. This can be thought of as an outline or silhouette.
+                  </p>
+                  <p>
+                    When considered in combination with external factors like
+                    lighting or weather, this can produce a variety of intesting
+                    effects. Shape as a movement parameter explores light play
+                    as the dynamic movement of our body's shadow shapes. Viewing
+                    how these can be different than what is seen without light
+                    interference.
                   </p>
                 </div>
                 <MovementVideo
@@ -170,12 +196,19 @@ Convey this through short text description */}
                   {/* What does each design parameter mean? How can it vary?
 Convey this through short text description */}
                   <p>
-                    Exertion describes an individual’s percieved or actual use
-                    of energy throughout a movement. It is a combination of the
-                    amount of energy used and the speed at which it is used.
-                    Exertion can be used to convey the amount of energy required
-                    to perform a movement, or the amount of energy that the
-                    movement itself conveys.
+                    Comparing the size, effort, and appearance differential
+                    between actions.
+                  </p>
+                  <p>
+                    As a movement parameter scale exhibits space taken up by the
+                    body through large and small actions. Viewing changing
+                    patterns and effort exerted into each action.
+                  </p>
+                  <p>
+                    Scale can be used to convey the size of or the amount of
+                    space taken up by a movement. A large scale movement could
+                    be described as big, wide, long or grand. A small scale
+                    movement can be described as small, compact, or intimate.
                   </p>
                 </div>
                 <MovementVideo
@@ -239,12 +272,15 @@ Convey this through short text description */}
                   {/* What does each design parameter mean? How can it vary?
 Convey this through short text description */}
                   <p>
-                    Exertion describes an individual’s percieved or actual use
-                    of energy throughout a movement. It is a combination of the
-                    amount of energy used and the speed at which it is used.
-                    Exertion can be used to convey the amount of energy required
-                    to perform a movement, or the amount of energy that the
-                    movement itself conveys.
+                    How smoothly, gracefully, or naturally, or efficiently an
+                    individual performs a movement.
+                  </p>
+                  <p>
+                    Fluidity can be used to convey the comfortability an
+                    individual appears to have with a movement. A movement with
+                    high fluidity can be described as smooth, graceful, or
+                    natural. A movement with low fluidity can be described as
+                    rigid, stiff, or forced.
                   </p>
                 </div>
                 <MovementVideo

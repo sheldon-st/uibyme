@@ -74,7 +74,7 @@ export function HomePage() {
         </p>
       </div>
       <img
-        src="public/movementparameters.png"
+        src="https://uibyme.blob.core.windows.net/movement/movementparameters.png"
         alt=""
         style={{ width: '100%', backgroundColor: 'white' }}
       />

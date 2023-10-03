@@ -70,11 +70,11 @@ export function HomePage() {
         <p style={{ opacity: 0.8 }}>
           Hover over each title for a visual demonstration of the parameter.
           Click for more detailed information. <br /> <br />
-          Scroll to see how all of these parameters could relate.
+          Scroll to see how all of these parameters may relate.
         </p>
       </div>
       <img
-        src="src/assets/movementparameters.png"
+        src="public/movementparameters.png"
         alt=""
         style={{ width: '100%', backgroundColor: 'white' }}
       />
